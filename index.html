@@ -725,7 +725,7 @@
             console.log(`Carregando treino: ${workoutName} para nível ${selectedLevel}`); selectedWorkoutName = workoutName;
             
             const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxFE-xSa5IpxCJTeEWZRHya2gzUHPMNIdCrqST4q--0TuOv1COm9ghjgW76VfBgw3o/exec";
-            if (SCRIPT_URL === "COLOQUE_O_ID_DA_SUA_PLANILHA_AQUI" || !SCRIPT_URL.startsWith("https://script.google.com/")) {
+            if (SCRIPT_URL === "1CMZdc7UJNdFAxEspAiDzTmyFL6NsXdrBVTYJrt9TBk0" || !SCRIPT_URL.startsWith("https://script.google.com/")) {
                 showToast("Erro: URL do Script inválida ou não configurada.", 5000); console.error("URL do Script inválida ou não configurada:", SCRIPT_URL);
                 return;
             }
@@ -1400,7 +1400,7 @@
 
         async function saveProgressToSheet(progressDataArray) {
             const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxFE-xSa5IpxCJTeEWZRHya2gzUHPMNIdCrqST4q--0TuOv1COm9ghjgW76VfBgw3o/exec"; 
-            if (SCRIPT_URL === "COLOQUE_O_ID_DA_SUA_PLANILHA_AQUI" || !SCRIPT_URL.startsWith("https://script.google.com/")) {
+            if (SCRIPT_URL === "1CMZdc7UJNdFAxEspAiDzTmyFL6NsXdrBVTYJrt9TBk0" || !SCRIPT_URL.startsWith("https://script.google.com/")) {
                 console.error("URL do Script inválida ou não configurada para salvar."); return false;
             }
             if (!progressDataArray || progressDataArray.length === 0) { console.log("Nenhum dado de progresso para salvar."); return true; }
